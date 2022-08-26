@@ -7,7 +7,7 @@ const MyComponent = () => {
   return (
     <div>
       <div>Estado: { estado }</div>
-      <button onClick={() => setEstado("bundinha") }> setEstado </button>
+      <button onClick={() => setEstado("Troca estado") }> setEstado </button>
     </div>
   );
 };

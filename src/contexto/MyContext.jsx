@@ -5,7 +5,7 @@ export const PathContext = createContext(); // regular export
 
 // A new component that will hold the context values and will wrap your <MyComponent>
 const MyContext = ({ children }) => {
-const [ estado , setEstado ] = useState("tetinha")
+const [ estado , setEstado ] = useState("Estado default")
 
   return (
     <PathContext.Provider
